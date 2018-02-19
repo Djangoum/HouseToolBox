@@ -5,8 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\HouseToolBox.Api.Business.Models\HouseToolBox.Api.Business.Models.csproj" />
-    <ProjectReference Include="..\HouseToolBox.Api.Data\HouseToolBox.Api.Data.csproj" />
     <ProjectReference Include="..\HouseToolBox.Api.Entities\HouseToolBox.Api.Models.csproj" />
   </ItemGroup>
 

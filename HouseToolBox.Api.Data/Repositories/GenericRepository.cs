@@ -113,5 +113,10 @@ namespace HouseToolBox.Api.Data.Repositories
 
             Set.Remove(entityToDelete);
         }
+
+        public Task SaveChangesAsync()
+        {
+            return Context.SaveChangesAsync();
+        }
     }
 }

@@ -39,6 +39,7 @@ namespace HouseToolBox.Api
             services.AddDbContext<HouseToolBoxContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
             Data.Module.RegisterModule(services);
+            Business.Module.RegisterModule(services);
 
             services.AddCors();
         }

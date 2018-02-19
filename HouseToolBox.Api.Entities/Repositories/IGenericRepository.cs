@@ -25,6 +25,8 @@ namespace HouseToolBox.Api.Models.Repositories
 
         Task Remove(TKey id);
 
+        Task SaveChangesAsync();
+
         void Update(TEntity entityToUpdate);
     }
 }
